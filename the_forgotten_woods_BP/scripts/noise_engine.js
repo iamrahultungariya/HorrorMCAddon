@@ -2,12 +2,12 @@
  * The Forgotten Woods — Deterministic Noise & Sound Propagation Engine
  * 
  * Features:
- * - Un-sneaked door, chest, trapdoor opening triggers `door_creak` sound (25 block radius)
+ * - Un-sneaked door, chest, trapdoor opening triggers door_creak sound (25 block radius)
  * - Alerts all nearby predators (The Woods Stalker, Crypt Crawler) to investigate player position
  * - Crouching (Sneaking) allows 100% silent interaction!
  */
 
-import { world, system, Player, Vector3, Dimension } from '@minecraft/server';
+import { world, system } from '@minecraft/server';
 
 const NOISY_BLOCKS = [
   'door',
@@ -19,7 +19,8 @@ const NOISY_BLOCKS = [
 
 export function initializeNoiseEngine() {
   world.afterEvents.playerInteractWithBlock.subscribe((event) => {
-    const { player, block } = event;
+    const player = event.player;
+    const block = event.block;
     if (!player || !block) return;
 
     const blockType = block.typeId.toLowerCase();
@@ -34,8 +35,8 @@ export function initializeNoiseEngine() {
     }
 
     // Loud noise triggered!
-    const dim: Dimension = player.dimension;
-    const loc: Vector3 = player.location;
+    const dim = player.dimension;
+    const loc = player.location;
 
     // Play creaking audio at block location
     if (blockType.includes('chest') || blockType.includes('barrel')) {
@@ -54,9 +55,8 @@ export function initializeNoiseEngine() {
 /**
  * Alerts forest predators to sprint toward the sound epicenter
  */
-export function alertMonstersToLocation(dim: Dimension, loc: Vector3, radius: number) {
+export function alertMonstersToLocation(dim, loc, radius) {
   try {
-    // Entities to lure
     const entities = dim.getEntities({
       location: loc,
       maxDistance: radius,
@@ -64,7 +64,6 @@ export function alertMonstersToLocation(dim: Dimension, loc: Vector3, radius: nu
     });
 
     for (const mob of entities) {
-      // Force pathfinding toward sound coordinate
       dim.runCommand(`damage @e[type=forgotten_woods:the_woods_stalker,c=1,r=${radius}] 0 entity_attack entity @p`);
       dim.runCommand(`execute as @e[family=horror,r=${radius}] at @s run playsound forgotten_woods.monster_alert @a[r=20] ~ ~ ~ 1.2 0.7`);
     }

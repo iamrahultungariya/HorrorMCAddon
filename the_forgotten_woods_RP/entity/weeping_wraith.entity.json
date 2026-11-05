@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "forgotten_woods:weeping_wraith",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/weeping_wraith"
+      },
+      "geometry": {
+        "default": "geometry.weeping_wraith"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

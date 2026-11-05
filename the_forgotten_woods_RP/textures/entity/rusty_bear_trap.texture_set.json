@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "rusty_bear_trap",
+    "metalness_emissive_roughness": "rusty_bear_trap_mer"
+  }
+}

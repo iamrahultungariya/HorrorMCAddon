@@ -1,0 +1,159 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.weeping_wraith",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 3,
+        "visible_bounds_offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -6,
+                0,
+                -6
+              ],
+              "size": [
+                12,
+                2,
+                12
+              ],
+              "uv": [
+                12,
+                12
+              ]
+            },
+            {
+              "origin": [
+                -4.5,
+                2,
+                -4
+              ],
+              "size": [
+                9,
+                12,
+                8
+              ],
+              "uv": [
+                8,
+                24
+              ]
+            },
+            {
+              "origin": [
+                -3.5,
+                14,
+                -2.5
+              ],
+              "size": [
+                7,
+                10,
+                5
+              ],
+              "uv": [
+                25,
+                21
+              ]
+            },
+            {
+              "origin": [
+                -3,
+                23.5,
+                -4.5
+              ],
+              "size": [
+                6,
+                6,
+                6
+              ],
+              "uv": [
+                6,
+                42
+              ]
+            },
+            {
+              "origin": [
+                -5,
+                16,
+                -5.5
+              ],
+              "size": [
+                2.5,
+                10,
+                3
+              ],
+              "uv": [
+                39,
+                3
+              ]
+            },
+            {
+              "origin": [
+                2.5,
+                16,
+                -5.5
+              ],
+              "size": [
+                2.5,
+                10,
+                3
+              ],
+              "uv": [
+                39,
+                3
+              ]
+            },
+            {
+              "origin": [
+                -12,
+                16,
+                2
+              ],
+              "size": [
+                9,
+                14,
+                1.5
+              ],
+              "uv": [
+                2,
+                50
+              ]
+            },
+            {
+              "origin": [
+                3,
+                16,
+                2
+              ],
+              "size": [
+                9,
+                14,
+                1.5
+              ],
+              "uv": [
+                2,
+                50
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

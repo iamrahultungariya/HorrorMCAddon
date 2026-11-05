@@ -5,16 +5,55 @@
     "forgotten_woods:double_barrel_shotgun": {
       "textures": "textures/items/double_barrel_shotgun"
     },
+    "double_barrel_shotgun": {
+      "textures": "textures/items/double_barrel_shotgun"
+    },
     "forgotten_woods:shotgun_shell": {
       "textures": "textures/items/shotgun_shell"
     },
+    "shotgun_shell": {
+      "textures": "textures/items/shotgun_shell"
+    },
+    "forgotten_woods:flashlight": {
+      "textures": "textures/items/flashlight"
+    },
+    "flashlight": {
+      "textures": "textures/items/flashlight"
+    },
+    "horror:flashlight": {
+      "textures": "textures/items/flashlight"
+    },
+    "forgotten_woods:aa_battery": {
+      "textures": "textures/items/aa_battery"
+    },
+    "aa_battery": {
+      "textures": "textures/items/aa_battery"
+    },
+    "horror:aa_battery": {
+      "textures": "textures/items/aa_battery"
+    },
+    "forgotten_woods:forgotten_lantern": {
+      "textures": "textures/items/forgotten_lantern"
+    },
+    "forgotten_lantern": {
+      "textures": "textures/items/forgotten_lantern"
+    },
     "forgotten_woods:glass_bottle": {
+      "textures": "textures/items/glass_bottle"
+    },
+    "glass_bottle": {
       "textures": "textures/items/glass_bottle"
     },
     "forgotten_woods:stone_pebble": {
       "textures": "textures/items/stone_pebble"
     },
+    "stone_pebble": {
+      "textures": "textures/items/stone_pebble"
+    },
     "forgotten_woods:rusty_bear_trap": {
+      "textures": "textures/entity/rusty_bear_trap"
+    },
+    "rusty_bear_trap": {
       "textures": "textures/entity/rusty_bear_trap"
     }
   }

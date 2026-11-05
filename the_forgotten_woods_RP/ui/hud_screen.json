@@ -1,0 +1,26 @@
+{
+  "namespace": "hud",
+  "root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "horror_vignette@hud.horror_vignette_image": {}
+          }
+        ]
+      }
+    ]
+  },
+  "horror_vignette_image": {
+    "type": "image",
+    "texture": "textures/ui/bodycam_vignette",
+    "size": [
+      "100%",
+      "100%"
+    ],
+    "layer": -1,
+    "alpha": 0.45
+  }
+}

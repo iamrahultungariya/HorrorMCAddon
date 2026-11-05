@@ -7,32 +7,31 @@
  * - Deafening Muzzle Blast: 60-block sonic alert radius that wakes the entire forest!
  */
 
-import { world, system, Player, Vector3, Dimension, EntityDamageCause } from '@minecraft/server';
+import { world, system, EntityDamageCause } from '@minecraft/server';
 import { alertMonstersToLocation } from './noise_engine.js';
 
 // Track shotgun ammo in chambers per player
-const playerAmmoMap = new Map<string, number>();
+const playerAmmoMap = new Map();
 
 export function initializeShotgunEngine() {
   world.afterEvents.itemUse.subscribe((event) => {
-    const { source: player, itemStack } = event;
-    if (!player || itemStack.typeId !== 'forgotten_woods:double_barrel_shotgun') return;
+    const player = event.source;
+    const itemStack = event.itemStack;
+    if (!player || !itemStack || itemStack.typeId !== 'forgotten_woods:double_barrel_shotgun') return;
 
     const playerId = player.id;
     const currentAmmo = playerAmmoMap.get(playerId) ?? 2;
 
     if (currentAmmo <= 0) {
-      // Out of chambered shells -> Attempt reload from inventory
       attemptReload(player);
       return;
     }
 
-    // Fire Shotgun!
     fireShotgun(player, currentAmmo - 1);
   });
 }
 
-function fireShotgun(player: Player, remainingAmmo: number) {
+function fireShotgun(player, remainingAmmo) {
   const dim = player.dimension;
   const loc = player.location;
   const viewDir = player.getViewDirection();
@@ -46,27 +45,28 @@ function fireShotgun(player: Player, remainingAmmo: number) {
   dim.runCommand(`particle minecraft:smoke_particle ${loc.x + viewDir.x * 1.2} ${loc.y + 1.2 + viewDir.y * 1.2} ${loc.z + viewDir.z * 1.2}`);
 
   // 2. Heavy Recoil Camera Kickback
-  player.applyKnockback(-viewDir.x, -viewDir.z, 0.4, 0.1);
+  try {
+    player.applyKnockback(-viewDir.x, -viewDir.z, 0.4, 0.1);
+  } catch (e) {}
 
-  // 3. Raycast Pellet Spread Damage (15 block effective range)
-  const raycastEntities = dim.getEntitiesFromRay(
-    { x: loc.x, y: loc.y + 1.4, z: loc.z },
-    viewDir,
-    { maxDistance: 16 }
-  );
+  // 3. Raycast Pellet Spread Damage (16 block effective range)
+  try {
+    const raycastEntities = dim.getEntitiesFromRay(
+      { x: loc.x, y: loc.y + 1.4, z: loc.z },
+      viewDir,
+      { maxDistance: 16 }
+    );
 
-  let hitTarget = false;
-  for (const hit of raycastEntities) {
-    const entity = hit.entity;
-    if (entity.id === player.id) continue;
+    for (const hit of raycastEntities) {
+      const entity = hit.entity;
+      if (entity.id === player.id) continue;
 
-    // Deal 25 devastating close-range buckshot damage + pushback
-    try {
-      entity.applyDamage(25, { cause: EntityDamageCause.entityAttack, damagingEntity: player });
-      entity.applyKnockback(viewDir.x, viewDir.z, 1.8, 0.4);
-      hitTarget = true;
-    } catch (e) {}
-  }
+      try {
+        entity.applyDamage(25, { cause: EntityDamageCause.entityAttack, damagingEntity: player });
+        entity.applyKnockback(viewDir.x, viewDir.z, 1.8, 0.4);
+      } catch (err) {}
+    }
+  } catch (rayErr) {}
 
   // 4. Action bar display
   if (remainingAmmo === 1) {
@@ -80,8 +80,8 @@ function fireShotgun(player: Player, remainingAmmo: number) {
   dim.runCommand(`tellraw @a[r=60] {"rawtext":[{"text":"§4[!] The deafening blast reverberated across the island... Monsters are incoming!"}]}`);
 }
 
-function attemptReload(player: Player) {
-  const container = (player as any).getComponent('minecraft:inventory')?.container;
+function attemptReload(player) {
+  const container = player.getComponent('minecraft:inventory')?.container;
   if (!container) return;
 
   let foundShell = false;
@@ -98,22 +98,25 @@ function attemptReload(player: Player) {
 
   if (!foundShell) {
     player.onScreenDisplay.setActionBar('§c*CLICK* Empty! You need 12-Gauge Shotgun Shells to reload.');
-    player.dimension.runCommand(`playsound random.click @s ~ ~ ~ 0.8 1.4`);
+    player.dimension.runCommand(`playsound random.click @s ~ ~ ~ 0.8 1.5`);
     return;
   }
 
-  // Consume 1 shell and load 2 chambers
-  const item = container.getItem(shellSlot);
-  if (item) {
-    if (item.amount > 1) {
-      item.amount -= 1;
-      container.setItem(shellSlot, item);
-    } else {
-      container.setItem(shellSlot, undefined);
-    }
+  // Reload: Consume 1 or 2 shells depending on inventory
+  const shellItem = container.getItem(shellSlot);
+  if (shellItem.amount > 2) {
+    shellItem.amount -= 2;
+    container.setItem(shellSlot, shellItem);
+    playerAmmoMap.set(player.id, 2);
+  } else if (shellItem.amount === 2) {
+    container.setItem(shellSlot, undefined);
+    playerAmmoMap.set(player.id, 2);
+  } else {
+    // Only 1 shell available
+    container.setItem(shellSlot, undefined);
+    playerAmmoMap.set(player.id, 1);
   }
 
-  playerAmmoMap.set(player.id, 2);
-  player.dimension.runCommand(`playsound random.door_close @s ~ ~ ~ 1.0 1.6`);
-  player.onScreenDisplay.setActionBar('§a🔄 Reloaded: 2 Shells chambered.');
+  player.dimension.runCommand(`playsound forgotten_woods.shotgun_reload @s ~ ~ ~ 1.2 1.0`);
+  player.onScreenDisplay.setActionBar(`§a🔄 Clack-Clack! Reloaded [Shells: ${playerAmmoMap.get(player.id)}/2]`);
 }

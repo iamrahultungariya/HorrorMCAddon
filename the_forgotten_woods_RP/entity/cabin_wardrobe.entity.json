@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "forgotten_woods:cabin_wardrobe",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/cabin_wardrobe"
+      },
+      "geometry": {
+        "default": "geometry.cabin_wardrobe"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

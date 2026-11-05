@@ -1,0 +1,17 @@
+{
+  "biomes": {
+    "default": {
+      "fog": "forgotten_woods:fog_haunted_forest",
+      "water_surface_color": "#1a2530",
+      "water_fog_color": "#0d1520"
+    },
+    "swamp": {
+      "fog": "forgotten_woods:fog_sunken_swamp",
+      "water_surface_color": "#142010",
+      "water_fog_color": "#0c160a"
+    },
+    "roofed_forest": {
+      "fog": "forgotten_woods:fog_haunted_forest"
+    }
+  }
+}

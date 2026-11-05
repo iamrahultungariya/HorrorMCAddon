@@ -1,0 +1,789 @@
+{
+  "name": "colossal_dead_redwood_42m",
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        -1,
+        0,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        -1
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        -1,
+        1,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        -1
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        -1,
+        2,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        -1
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        -1,
+        3,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        1
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        -1
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        9,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        10,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        11,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        12,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        13,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        14,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        15,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        16,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        17,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        18,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        19,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        20,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        21,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        22,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        23,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        24,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        25,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        26,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        27,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        28,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        29,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        30,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        31,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        32,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        33,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        34,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        35,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        36,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        37,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        38,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        39,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        40,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        0,
+        41,
+        0
+      ],
+      "name": "minecraft:dark_oak_log"
+    },
+    {
+      "pos": [
+        1,
+        30,
+        0
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        2,
+        30,
+        0
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        3,
+        31,
+        0
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        3,
+        30,
+        0
+      ],
+      "name": "minecraft:weeping_vines"
+    },
+    {
+      "pos": [
+        4,
+        31,
+        0
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        4,
+        30,
+        0
+      ],
+      "name": "minecraft:weeping_vines"
+    },
+    {
+      "pos": [
+        5,
+        32,
+        0
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        5,
+        31,
+        0
+      ],
+      "name": "minecraft:weeping_vines"
+    },
+    {
+      "pos": [
+        -1,
+        33,
+        0
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        -2,
+        33,
+        0
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        -3,
+        34,
+        0
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        -3,
+        33,
+        0
+      ],
+      "name": "minecraft:weeping_vines"
+    },
+    {
+      "pos": [
+        -4,
+        34,
+        0
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        -4,
+        33,
+        0
+      ],
+      "name": "minecraft:weeping_vines"
+    },
+    {
+      "pos": [
+        -5,
+        35,
+        0
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        -5,
+        34,
+        0
+      ],
+      "name": "minecraft:weeping_vines"
+    },
+    {
+      "pos": [
+        0,
+        36,
+        1
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        0,
+        36,
+        2
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        0,
+        37,
+        3
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        0,
+        36,
+        3
+      ],
+      "name": "minecraft:weeping_vines"
+    },
+    {
+      "pos": [
+        0,
+        37,
+        4
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        0,
+        36,
+        4
+      ],
+      "name": "minecraft:weeping_vines"
+    },
+    {
+      "pos": [
+        0,
+        38,
+        5
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        0,
+        37,
+        5
+      ],
+      "name": "minecraft:weeping_vines"
+    },
+    {
+      "pos": [
+        0,
+        38,
+        -1
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        0,
+        38,
+        -2
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        0,
+        39,
+        -3
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        0,
+        38,
+        -3
+      ],
+      "name": "minecraft:weeping_vines"
+    },
+    {
+      "pos": [
+        0,
+        39,
+        -4
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        0,
+        38,
+        -4
+      ],
+      "name": "minecraft:weeping_vines"
+    },
+    {
+      "pos": [
+        0,
+        40,
+        -5
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        0,
+        39,
+        -5
+      ],
+      "name": "minecraft:weeping_vines"
+    },
+    {
+      "pos": [
+        1,
+        40,
+        1
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        2,
+        40,
+        2
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        3,
+        41,
+        3
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        3,
+        40,
+        3
+      ],
+      "name": "minecraft:weeping_vines"
+    },
+    {
+      "pos": [
+        4,
+        41,
+        4
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        4,
+        40,
+        4
+      ],
+      "name": "minecraft:weeping_vines"
+    },
+    {
+      "pos": [
+        5,
+        42,
+        5
+      ],
+      "name": "minecraft:dark_oak_wood"
+    },
+    {
+      "pos": [
+        5,
+        41,
+        5
+      ],
+      "name": "minecraft:weeping_vines"
+    }
+  ]
+}

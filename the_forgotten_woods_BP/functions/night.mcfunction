@@ -1,0 +1,1 @@
+function horror_night

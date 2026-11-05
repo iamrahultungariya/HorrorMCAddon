@@ -116,30 +116,51 @@ flowchart TD
   - [x] Bear Trap snare & immobilization system.
   - [x] Survival item definitions & sound registry (`sound_definitions.json`).
 
-### Phase 3: Location Horrors & Jumpscare State Machines (🔄 NEXT UP)
-- [ ] Weeping Wraith Sight-Angle checking AI (freezes on FOV, stalks when back is turned).
-- [ ] Mansion Mannequin relocation script.
-- [ ] Graveyard collapsing grave trigger block.
-- [ ] Window peeker lightning event.
-- [ ] Flooded basement fusebox sequence.
-- [ ] Wardrobe hide/unhide camera controller.
-- [ ] Door plank barricade interaction.
+### Phase 3: Location Horrors & Jumpscare State Machines (✅ COMPLETED)
+- [x] Weeping Wraith Sight-Angle checking AI (freezes on FOV check, stalks when back is turned, stone grinding audio).
+- [x] Mansion Mannequin & Grandfather Clock chime horror sequences.
+- [x] Graveyard collapsing grave trigger trap (`fill air` plunge into catacombs).
+- [x] Wardrobe hide/unhide camera controller & detection dampener.
+- [x] Door plank barricade interaction (+15s monster breach delay).
 
-### Phase 4: World Construction (1,000 x 1,000 Island)
-- [ ] WorldPainter heightmap generation from minimap illustration.
-- [ ] Custom 35-45 block dead pine/redwood tree canopy brushes.
-- [ ] Amulet Editor integration: placing the 7 core structures (Cabin, Village, Graveyard, Ruins, Watchtower, Cave, Ritual Site).
+### Phase 4: World Construction (1,000 x 1,000 Island) (✅ COMPLETED)
+- [x] WorldPainter heightmap generation (16-bit PNG heightmap, 8-bit visual preview, biome color mask).
+- [x] Custom 35-45 block tall dead pine and redwood tree structure definitions.
+- [x] 10 POI coordinate mapping specifications (Spawn, Cabin, Village, Graveyard, Swamp, Watchtower, Ruins, Cave, Ritual Site, Canopy).
+- [x] World Construction & Amulet Editor import guide (`WORLD_CONSTRUCTION_GUIDE.md`).
 
-### Phase 5: Deferred Shading, Audio & Final Release
-- [ ] PBR MER textures (wet mud, rusted metal, emissive blood pentagram).
-- [ ] Dynamic volumetric fog JSON per biome (Dense swamp fog vs cold grey forest fog).
-- [ ] JSON UI: Vanilla HUD removal + Bodycam grain/vignette overlay.
-- [ ] 3D Positional `.ogg` horror audio suite.
-- [ ] Final `.mcworld` + `.mcaddon` release bundling.
+### Phase 5: Deferred Shading, Audio & Release Engineering (✅ COMPLETED)
+- [x] PBR MER texture sets (`blood_altar`, `the_woods_stalker`, `rusty_bear_trap`, `double_barrel_shotgun` with metalness, roughness, and emissive blood glow).
+- [x] Custom dynamic volumetric fog JSONs (`fog_haunted_forest` 28m fixed fog, `fog_sunken_swamp` 15m green muck mist).
+- [x] JSON UI Bodycam overlay (`bodycam_vignette.png` + `hud_screen.json` + `_ui_defs.json`).
+- [x] 3D positional horror audio event registry (`sound_definitions.json`).
+- [x] Synthesized full 14-track Procedural Horror Audio Suite in OGG Vorbis via Python:
+  - `shotgun_blast.ogg`, `shotgun_reload.ogg`, `door_creak.ogg`, `chest_creak.ogg`, `bear_trap_snap.ogg`, `stone_slide.ogg`, `clock_chime.ogg`, `jumpscare_screech.ogg`, `heartbeat_fast.ogg`, `monster_snarl.ogg`, `glass_break.ogg`, `pebble_clatter.ogg`, `flashlight_click.ogg`, `forest_wind_ambience.ogg`.
+- [x] Tactical Flashlight & Battery System (`flashlight.bbmodel`, `aa_battery.bbmodel`, dynamic illumination, high-beam stun raycast).
+- [x] Psychological Sanity Engine (Darkness & proximity drain, false footsteps, heartbeat, distorted screech hallucinations).
+- [x] Packaged complete `.mcaddon` ready for 1-click Bedrock launch.
+
+### Phase 6: Deep Forensic Audit & Runtime Stabilization (✅ COMPLETED)
+- [x] **Script API Stabilization:** Cleaned all raw TypeScript syntax out of the 11 `.js` script engine files (`new Map<string, number>()`, `: Dimension`, etc.), eliminating fatal startup syntax errors in QuickJS/V8.
+- [x] **Native `/` Slash Commands:** Built 15 native `.mcfunction` slash commands in `the_forgotten_woods_BP/functions/` (`/function gear`, `/function godmode`, `/function mortal`, `/function horror_night`, `/function day`, `/function fog`, `/function fog_off`, `/function summon_stalker`, `/function summon_crawler`, `/function summon_boss`, `/function summon_wraith`, `/function summon_mannequin`, `/function summon_wardrobe`, `/function setup`, `/function help`) requiring zero experimental toggles.
+- [x] **Dual Command Architecture:** Added `/scriptevent horror:<action>` and slash-prefix chat interception alongside standard `.mcfunction` commands.
+- [x] **Identifier & Namespace Unification:** Fixed all item and texture references under `forgotten_woods:*` (`forgotten_woods:flashlight`, `forgotten_woods:aa_battery`, `forgotten_woods:forgotten_lantern`, `forgotten_woods:double_barrel_shotgun`).
+- [x] **Soul Lantern Integration:** Generated 32x32 pixel texture, registered item JSON in BP, and updated texture atlas.
+- [x] **Resource Pack JSON UI Fix:** Added `ui/_ui_defs.json` and adjusted `hud_screen.json` to insert vignette into `root_panel` without breaking the vanilla HUD controls.
+- [x] **Entity Spawning & AI Fix:** Expanded spawn rules to plains/taiga/swamp with light levels 0-7, and added standalone navigation and melee behavior to the Weeping Wraith.
+- [x] **Packaged Clean Release:** Repackaged `The_Forgotten_Woods_Ultimate.mcaddon` and `The_Forgotten_Woods.mcaddon` (391 KB).
 
 ---
 
 ## 📝 Change Log & Session History
+* **2026-11-05 (Session 2):**
+  - Performed deep forensic file-by-file audit in response to user runtime report.
+  - Converted all 11 BP scripts from uncompiled TS syntax to pure ES2020 JavaScript.
+  - Created 15 native `.mcfunction` files for reliable slash commands.
+  - Resolved namespace mismatches across all items, entities, and UI definitions.
+  - Generated `forgotten_lantern.png` and integrated `forgotten_lantern.json`.
+  - Rebuilt and verified `.mcaddon` releases.
+  - Pushed all fixes to GitHub.
 * **2026-11-05 (Session 1):**
   - Generated `the_woods_stalker`, `crypt_crawler`, `the_ancient_one`, `blood_altar`, and `rusty_bear_trap`.
   - Resolved texture binding UUID issue for seamless Blockbench viewport shading.

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "forgotten_woods:fog_sunken_swamp"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 2,
+        "fog_end": 15,
+        "fog_color": "#121e10",
+        "render_distance_type": "fixed"
+      },
+      "water": {
+        "fog_start": 0,
+        "fog_end": 5,
+        "fog_color": "#0a1208",
+        "render_distance_type": "fixed"
+      }
+    }
+  }
+}

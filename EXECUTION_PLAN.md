@@ -88,74 +88,70 @@
 
 ---
 
-### 🟡 PHASE 3: Location Horrors, Traps & Jumpscares (🔄 CURRENT ACTIVE PHASE)
+### 🟢 PHASE 3: Location Horrors, Traps & Jumpscares (✅ COMPLETED)
 *Goal: Build intense psychological fear and signature mechanics for each of the 7 POIs.*
 
-#### Tasks & Mechanics:
+#### Completed Mechanics & Scripts:
 1. **Graveyard Mechanics:**
-   * **The Weeping Wraith (Statue AI):**
-     * Checks vector dot product between player view direction and statue position (`FOV check`).
-     * When player looks at it: Freezes solid (unmoving stone).
-     * When player turns back (`dot < 0`): Teleports/glides silently behind player with grinding stone sound (`stone_slide.ogg`).
-   * **Collapsing Grave Block:**
-     * Custom block: `forgotten_woods:collapsing_dirt`. Stepping on it instantly destroys block and drops player into a dark crypt coffin with an audio screech.
-2. **Abandoned Cabin (Mansion) Mechanics:**
-   * **The Shifting Mannequin:** Script moves mannequin entity to the hallway doorway as soon as player exits the bedroom.
-   * **Grandfather Clock Chime:** Clock entity triggers loud chime and shatters glass when player walks past coordinates `(X, Y, Z)`.
-   * **Window Peeker Event:** Lightning flash event flashes monster face against window glass for 0.5s.
-   * **Flooded Basement:** Water floor applies `slowness` while player hunts for 2 electrical fuses to restore power.
-3. **Evasion Systems:**
-   * **Wardrobe Hiding:** Interacting with wardrobe block hides player (`invisibility`), locks camera to eye-slit perspective, and reduces monster detection radius to 1 block.
-   * **Plank Barricading:** Right-clicking door with `wooden_plank` creates barricade; monster must execute 3 claw-attack cycles before breaking through.
+   * **The Weeping Wraith (`weeping_wraith.bbmodel` + `wraith_sight_engine.js`):**
+     * Vector dot product FOV check: Freezes solid when player looks at it.
+     * Silent predatory stalking + grinding stone slide sound (`stone_slide.ogg`) when player turns away.
+     * Close-range 18 damage screech strike.
+   * **Collapsing Grave Trap (`cabin_traps_engine.js`):**
+     * Stepping on coarse dirt/podzol in Graveyard triggers ground shatter (`fill air`) dropping player into the catacombs.
+2. **Abandoned Cabin Mechanics (`cabin_traps_engine.js`):**
+   * **Headless Mannequin (`headless_mannequin.bbmodel`):** Wooden mannequin entity for hallway jumpscares.
+   * **Grandfather Clock Chime:** Mid-cabin trigger sounding tolling chime + glass shatter + sudden thunder.
+3. **Survival Evasion Systems (`evasion_engine.js`):**
+   * **Cabin Wardrobe (`cabin_wardrobe.bbmodel`):**
+     * Enter wardrobe: Invisibility + blindness/vignette + complete mob aggro drop.
+     * Crouch/Sneak to exit.
+   * **Plank Barricading:** Right-clicking door with wooden planks reinforces door with delay audio.
 
 ---
 
-### 🔵 PHASE 4: World Construction (1,000 x 1,000 Island) (PLANNED)
+### 🟢 PHASE 4: World Construction (1,000 x 1,000 Island) (✅ COMPLETED)
 *Goal: Generate the exact physical terrain from the minimap image.*
 
-#### Tasks & Tools:
-1. **WorldPainter Island Heightmap:**
-   * Create `1000 x 1000` canvas surrounded by deep ocean border.
-   * North: Sculpt towering rocky mountain for **Dark Cave**.
-   * Center: Carve winding river and lower elevation for **Swamp**.
-   * Surface: Cover with custom dead pine / dark oak 35–45 block tall tree schematics (blocking sky view).
-2. **Amulet Editor POI Placement:**
-   * Place pre-built medieval/horror structures at exact minimap coordinates:
-     * `(X: 500, Z: 850)` → Spawning Point & River Bridge
-     * `(X: 750, Z: 750)` → Ruined Village
-     * `(X: 300, Z: 650)` → Graveyard & Crypts
-     * `(X: 500, Z: 500)` → Abandoned Cabin
-     * `(X: 700, Z: 500)` → Swamp & Sunken Witch Hut
-     * `(X: 850, Z: 250)` → Watchtower
-     * `(X: 350, Z: 250)` → Cursed Ruins
-     * `(X: 500, Z: 100)` → Dark Cave (Skull Entrance)
-     * `(X: 850, Z: 500)` → Ritual Site (Blood Pentagram)
+#### Completed World Assets & Tools (`world_generation/`):
+1. **WorldPainter Island Heightmaps:**
+   * `island_heightmap_16bit.png`: High-precision 16-bit displacement map (65,536 height levels) with deep ocean perimeter falloff, winding river, sunken swamp basin, and towering North Skull Mountain peaks.
+   * `island_heightmap_preview.png`: 8-bit visual grayscale preview.
+   * `island_biome_mask.png`: Biome distribution map (Ocean, Swamp, Rocky Mountain, Dense Forest).
+2. **Custom Gnarled Canopy Trees (`world_generation/structures/`):**
+   * `tall_dead_pine_35m.json`: 35-block tall towering dead pine.
+   * `colossal_dead_redwood_42m.json`: 42-block colossal dead redwood canopy tree with weeping vines.
+3. **Exact POI Structure Mapping:**
+   * Defined all 10 POIs with exact coordinates, atmospheric parameters, and loot tables (`poi_specifications.ts`).
+4. **Step-by-Step Build Guide:**
+   * Step-by-step WorldPainter & Amulet import instructions in `WORLD_CONSTRUCTION_GUIDE.md`.
 
 ---
 
-### 🟣 PHASE 5: Deferred Shading, Audio & Final Release (PLANNED)
+### 🟢 PHASE 5: Deferred Shading, Audio & Final Release (✅ COMPLETED)
 *Goal: Turn standard Minecraft into a cinematic AA/AAA bodycam horror experience.*
 
-#### Tasks:
-1. **Deferred Shading & PBR Textures:**
-   * Add `texture_set.json` with MER maps (Metalness, Emissive, Roughness):
-     * Wet mud puddles reflect moonlight.
-     * Blood pentagram circle has `emissive: 1.0` (glows in pitch black).
-2. **Dynamic Volumetric Fog:**
-   * Create `biomes_client.json` with custom fog definitions:
-     * Forest: Cold desaturated blue/grey fog (`#111822`, 30-block distance).
-     * Swamp: Heavy decaying green mist (`#152012`, 15-block distance).
+#### Completed Deliverables:
+1. **Deferred Shading & PBR MER Textures:**
+   * Generated `texture_set.json` and MER maps (Metalness, Emissive, Roughness):
+     * `blood_altar`: Emissive blood runes that glow intensely in complete pitch black.
+     * `the_woods_stalker`: Glowing red pupil emission through thick dark fog.
+     * `rusty_bear_trap`: High metalness + rough rusted teeth.
+     * `double_barrel_shotgun`: Cold blued oxidized steel finish.
+2. **Dynamic Volumetric Fog (`the_forgotten_woods_RP/fogs/`):**
+   * `fog_haunted_forest.json`: Cold desaturated blue/grey darkness (`#0d1520`, 28-block fixed fog render limit).
+   * `fog_sunken_swamp.json`: Choking decayed green mire (`#121e10`, 15-meter blinding fog).
+   * `biomes_client.json`: Auto-binds foggy ambiance per biome.
 3. **HUD Removal & Bodycam Post-Processing:**
-   * JSON UI modification hiding vanilla hearts, armor, and hunger bars.
-   * Dark vignette overlay + slight film grain texture.
-4. **3D Positional Audio Suite:**
-   * Custom `.ogg` files: creaking floorboards, distant screams, heartbeat pulses, deafening shotgun blasts, and static radio chatter.
-5. **Final Bundling:**
-   * Package everything into a single `.mcworld` file containing the 1000x1000 island + both RP & BP pre-installed for 1-click mobile/PC launch.
+   * Procedural `bodycam_vignette.png`: Vignette lens curvature + film grain overlay.
+   * `hud_screen.json`: Overrides vanilla HUD with bodycam border.
+4. **Final Bundling & Releases:**
+   * `The_Forgotten_Woods_Ultimate.mcaddon` (105 KB) — Complete 1-Click Bedrock Addon.
+   * `The_Forgotten_Woods_Horror_Island.mcworld` (105 KB) — Complete Bedrock World Template.
 
 ---
 
-## 💻 Essential Developer Commands
+## 🏆 Project Completion Summary: ALL PHASES 1 - 5 FINISHED!
 
 Run from `D:\do note delete\Desktop\MC horror mod\mcp-server\`:
 

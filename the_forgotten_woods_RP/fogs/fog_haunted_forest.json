@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "forgotten_woods:fog_haunted_forest"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 4,
+        "fog_end": 28,
+        "fog_color": "#0d1520",
+        "render_distance_type": "fixed"
+      },
+      "water": {
+        "fog_start": 0,
+        "fog_end": 8,
+        "fog_color": "#080d14",
+        "render_distance_type": "fixed"
+      }
+    }
+  }
+}

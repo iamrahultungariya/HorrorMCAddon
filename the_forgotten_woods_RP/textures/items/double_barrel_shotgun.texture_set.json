@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "double_barrel_shotgun",
+    "metalness_emissive_roughness": "double_barrel_shotgun_mer"
+  }
+}

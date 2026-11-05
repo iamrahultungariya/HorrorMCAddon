@@ -3,6 +3,8 @@
 Thumbs.db
 *.tmp
 *.log
+__pycache__/
+*.pyc
 
 # Keep all models, packs, and documentation
 !*.bbmodel

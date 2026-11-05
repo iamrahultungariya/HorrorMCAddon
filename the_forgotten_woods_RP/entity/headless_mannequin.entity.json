@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "forgotten_woods:headless_mannequin",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/headless_mannequin"
+      },
+      "geometry": {
+        "default": "geometry.headless_mannequin"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

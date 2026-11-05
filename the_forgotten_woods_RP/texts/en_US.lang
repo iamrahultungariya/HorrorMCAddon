@@ -7,9 +7,19 @@ item.spawn_egg.entity.forgotten_woods:the_ancient_one.name=Awaken The Ancient On
 item.forgotten_woods:forgotten_lantern.name=Survivor's Soul Lantern
 item.forgotten_woods:sacrificial_dagger.name=Cursed Sacrificial Dagger
 
-## Phase 2 Survival Equipment
+## Phase 2 Survival Equipment & Weapons
 item.forgotten_woods:double_barrel_shotgun.name=Break-Action Double-Barrel Shotgun
 item.forgotten_woods:shotgun_shell.name=12-Gauge Shotgun Shell
+item.forgotten_woods:flashlight.name=Tactical UV Flashlight
+item.forgotten_woods:aa_battery.name=AA Lithium Battery
 item.forgotten_woods:glass_bottle.name=Throwable Glass Bottle (Distraction)
 item.forgotten_woods:stone_pebble.name=Throwable Stone Pebble (Distraction)
 item.forgotten_woods:rusty_bear_trap.name=Rusty Snapping Bear Trap
+
+## Phase 3 Location Horrors
+entity.forgotten_woods:weeping_wraith.name=The Weeping Wraith (Statue)
+item.spawn_egg.entity.forgotten_woods:weeping_wraith.name=Place Weeping Wraith Statue
+entity.forgotten_woods:headless_mannequin.name=Headless Cabin Mannequin
+item.spawn_egg.entity.forgotten_woods:headless_mannequin.name=Place Headless Mannequin
+entity.forgotten_woods:cabin_wardrobe.name=Decaying Safehouse Wardrobe
+item.spawn_egg.entity.forgotten_woods:cabin_wardrobe.name=Place Hiding Wardrobe
