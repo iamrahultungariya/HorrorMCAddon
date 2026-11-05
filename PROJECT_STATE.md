@@ -90,6 +90,8 @@ flowchart TD
 | `the_forgotten_woods_RP/` | Resource Pack | ✅ Ready | Unified RP with models, textures, animations, lang files |
 | `the_forgotten_woods_BP/` | Behavior Pack | ✅ Ready | Unified BP with 3 entities, custom AI components, spawn rules |
 | `The_Forgotten_Woods_Ultimate.mcaddon` | Installer | ✅ Ready | 1-Click Bedrock package (19.3 KB) |
+| `MCP_SERVER_GUIDE.md` | Documentation | ✅ Ready | Complete user & setup guide for Blockbench MCP server at home |
+| `mcp-server/` | Engine Tooling | ✅ Ready | TypeScript MCP Server source, generators, tests, and archiver |
 | `PROJECT_STATE.md` | Master State | ✅ Live | Mandatory tracking file for project evolution |
 
 ---
@@ -142,3 +144,4 @@ flowchart TD
   - Shifted horror mechanics from vague concepts to deterministic action triggers (Creaking doors, throwables, shotgun, wardrobe hiding).
   - Created `PROJECT_STATE.md` as permanent master project directive.
   - Initialized Git repository and pushed live to GitHub: `git@github.com:iamrahultungariya/HorrorMCAddon.git`.
+  - Integrated `mcp-server/` codebase into the repository and created `MCP_SERVER_GUIDE.md` for seamless setup at home.

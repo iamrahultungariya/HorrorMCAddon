@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "crystal_warrior Behavior Pack",
+    "description": "Custom Bedrock Add-on for crystal_warrior",
+    "uuid": "a23ef3cd-4777-4a0e-996a-77bda8102b0a",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "a60269f7-90bc-41e5-9d33-ba6685550dc2",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "8c921c9e-c5e2-4768-bcfe-6fe818766259",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

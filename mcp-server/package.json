@@ -1,0 +1,50 @@
+{
+  "name": "blockbench-mcp-server",
+  "version": "1.0.0",
+  "description": "Industrial-Grade Model Context Protocol (MCP) Server for Blockbench and Minecraft Modding",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "blockbench-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "mcp",
+    "blockbench",
+    "minecraft",
+    "modding",
+    "geckolib",
+    "bedrock",
+    "modelcontextprotocol",
+    "3d",
+    "voxel"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "@types/archiver": "^8.0.0",
+    "@types/sharp": "^0.31.1",
+    "archiver": "^8.0.0",
+    "gl-matrix": "^3.4.3",
+    "sharp": "^0.35.5",
+    "uuid": "^9.0.1",
+    "ws": "^8.18.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/gl-matrix": "^3.2.0",
+    "@types/node": "^22.10.1",
+    "@types/uuid": "^9.0.8",
+    "@types/ws": "^8.5.13",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

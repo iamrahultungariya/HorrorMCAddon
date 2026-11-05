@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "crystal_warrior Resource Pack",
+    "description": "Custom Bedrock Add-on for crystal_warrior",
+    "uuid": "8c921c9e-c5e2-4768-bcfe-6fe818766259",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "a6480d8e-8392-4dc5-a590-62d17d272d05",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
