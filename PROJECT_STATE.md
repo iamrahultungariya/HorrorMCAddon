@@ -90,6 +90,7 @@ flowchart TD
 | `the_forgotten_woods_RP/` | Resource Pack | ✅ Ready | Unified RP with models, textures, animations, lang files |
 | `the_forgotten_woods_BP/` | Behavior Pack | ✅ Ready | Unified BP with 3 entities, custom AI components, spawn rules |
 | `The_Forgotten_Woods_Ultimate.mcaddon` | Installer | ✅ Ready | 1-Click Bedrock package (19.3 KB) |
+| `EXECUTION_PLAN.md` | Master Roadmap | ✅ Ready | Detailed phase-by-phase execution blueprint for new chats |
 | `MCP_SERVER_GUIDE.md` | Documentation | ✅ Ready | Complete user & setup guide for Blockbench MCP server at home |
 | `mcp-server/` | Engine Tooling | ✅ Ready | TypeScript MCP Server source, generators, tests, and archiver |
 | `PROJECT_STATE.md` | Master State | ✅ Live | Mandatory tracking file for project evolution |
