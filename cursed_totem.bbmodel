@@ -1,0 +1,500 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "creation_time": 1793863232,
+    "model_format": "bedrock",
+    "box_uv": false
+  },
+  "name": "cursed_totem",
+  "resolution": {
+    "width": 64,
+    "height": 64
+  },
+  "elements": [
+    {
+      "name": "stone_base",
+      "type": "cube",
+      "uuid": "01211a96-f2a7-4ddb-9979-d682568ada5d",
+      "from": [
+        -7,
+        0,
+        -7
+      ],
+      "to": [
+        7,
+        4,
+        7
+      ],
+      "origin": [
+        0,
+        2,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            14,
+            0,
+            28,
+            14
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            28,
+            0,
+            42,
+            14
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            14,
+            14,
+            18
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            14,
+            14,
+            28,
+            18
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            28,
+            14,
+            42,
+            18
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            42,
+            14,
+            56,
+            18
+          ],
+          "texture": null
+        }
+      },
+      "box_uv": false
+    },
+    {
+      "name": "totem_post_lower",
+      "type": "cube",
+      "uuid": "0f7827cc-de3f-462e-a998-edd035b1f2d9",
+      "from": [
+        -4,
+        4,
+        -4
+      ],
+      "to": [
+        4,
+        16,
+        4
+      ],
+      "origin": [
+        0,
+        10,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            36,
+            0,
+            44,
+            8
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            44,
+            0,
+            52,
+            8
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            28,
+            8,
+            36,
+            20
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            36,
+            8,
+            44,
+            20
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            44,
+            8,
+            52,
+            20
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            52,
+            8,
+            60,
+            20
+          ],
+          "texture": null
+        }
+      },
+      "box_uv": false
+    },
+    {
+      "name": "carved_skull",
+      "type": "cube",
+      "uuid": "abd3f122-7328-4bc4-9cbb-c08bca64f0d8",
+      "from": [
+        -5,
+        16,
+        -5
+      ],
+      "to": [
+        5,
+        26,
+        5
+      ],
+      "origin": [
+        0,
+        21,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            10,
+            18,
+            20,
+            28
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            20,
+            18,
+            30,
+            28
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            28,
+            10,
+            38
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            10,
+            28,
+            20,
+            38
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            20,
+            28,
+            30,
+            38
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            30,
+            28,
+            40,
+            38
+          ],
+          "texture": null
+        }
+      },
+      "box_uv": false
+    },
+    {
+      "name": "totem_horn_l",
+      "type": "cube",
+      "uuid": "16f127ed-d1fc-4466-9ea2-64188cd94d91",
+      "from": [
+        4,
+        23,
+        -2
+      ],
+      "to": [
+        8,
+        30,
+        2
+      ],
+      "origin": [
+        6,
+        26.5,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            48,
+            0,
+            52,
+            4
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            52,
+            0,
+            56,
+            4
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            44,
+            4,
+            48,
+            11
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            48,
+            4,
+            52,
+            11
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            52,
+            4,
+            56,
+            11
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            56,
+            4,
+            60,
+            11
+          ],
+          "texture": null
+        }
+      },
+      "box_uv": false
+    },
+    {
+      "name": "totem_horn_r",
+      "type": "cube",
+      "uuid": "c7721a71-900a-410f-8785-ff7a9fd62186",
+      "from": [
+        -8,
+        23,
+        -2
+      ],
+      "to": [
+        -4,
+        30,
+        2
+      ],
+      "origin": [
+        -6,
+        26.5,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            48,
+            0,
+            52,
+            4
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            52,
+            0,
+            56,
+            4
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            44,
+            4,
+            48,
+            11
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            48,
+            4,
+            52,
+            11
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            52,
+            4,
+            56,
+            11
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            56,
+            4,
+            60,
+            11
+          ],
+          "texture": null
+        }
+      },
+      "box_uv": false
+    },
+    {
+      "name": "candle_center",
+      "type": "cube",
+      "uuid": "0592d1f7-eeda-4813-bbc5-bcec63083777",
+      "from": [
+        -1,
+        26,
+        -1
+      ],
+      "to": [
+        1,
+        30,
+        1
+      ],
+      "origin": [
+        0,
+        28,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            22,
+            18,
+            24,
+            20
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            24,
+            18,
+            26,
+            20
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            20,
+            20,
+            22,
+            24
+          ],
+          "texture": null
+        },
+        "north": {
+          "uv": [
+            22,
+            20,
+            24,
+            24
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            24,
+            20,
+            26,
+            24
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            26,
+            20,
+            28,
+            24
+          ],
+          "texture": null
+        }
+      },
+      "box_uv": false
+    }
+  ],
+  "outliner": [
+    {
+      "name": "root",
+      "uuid": "7d19e63c-ca30-4b84-ab5c-146e69670879",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "mirror_uv": false,
+      "isOpen": true,
+      "children": [
+        "01211a96-f2a7-4ddb-9979-d682568ada5d",
+        "0f7827cc-de3f-462e-a998-edd035b1f2d9",
+        "abd3f122-7328-4bc4-9cbb-c08bca64f0d8",
+        "16f127ed-d1fc-4466-9ea2-64188cd94d91",
+        "c7721a71-900a-410f-8785-ff7a9fd62186",
+        "0592d1f7-eeda-4813-bbc5-bcec63083777"
+      ]
+    }
+  ],
+  "textures": [],
+  "animations": []
+}

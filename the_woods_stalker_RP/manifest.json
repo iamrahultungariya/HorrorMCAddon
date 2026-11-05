@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "the_woods_stalker Resource Pack",
+    "description": "Custom Bedrock Add-on for the_woods_stalker",
+    "uuid": "8ba3a43a-5c3c-421e-a48f-2a4708e355db",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "e0fd0bce-0a7d-45bd-99d5-3eac941d7a90",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

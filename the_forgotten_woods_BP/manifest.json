@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "The Forgotten Woods [BP]",
+    "description": "Official Behavior Pack for The Forgotten Woods Minecraft Horror Addon",
+    "uuid": "60319510-4424-443d-9a34-6e2a64e71345",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "879126b0-d435-4b6e-b3ef-04705422c93e",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "e9f037be-7575-447e-bd52-8e0acaaff233",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

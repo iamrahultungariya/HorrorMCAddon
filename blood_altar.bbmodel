@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "creation_time": 1793864276,
+    "model_format": "bedrock",
+    "box_uv": false
+  },
+  "name": "blood_altar",
+  "resolution": {
+    "width": 64,
+    "height": 64
+  },
+  "elements": [
+    {
+      "name": "altar_slab",
+      "type": "cube",
+      "uuid": "0842c0fd-697f-4ac2-921d-2f212c238a2d",
+      "from": [
+        -12,
+        0,
+        -12
+      ],
+      "to": [
+        12,
+        4,
+        12
+      ],
+      "origin": [
+        0,
+        2,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            24,
+            0,
+            48,
+            24
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        },
+        "down": {
+          "uv": [
+            48,
+            0,
+            72,
+            24
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        },
+        "east": {
+          "uv": [
+            0,
+            24,
+            24,
+            28
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        },
+        "north": {
+          "uv": [
+            24,
+            24,
+            48,
+            28
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        },
+        "west": {
+          "uv": [
+            48,
+            24,
+            72,
+            28
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        },
+        "south": {
+          "uv": [
+            72,
+            24,
+            96,
+            28
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        }
+      },
+      "box_uv": false
+    },
+    {
+      "name": "altar_pillar",
+      "type": "cube",
+      "uuid": "daa08f39-1b0e-451e-959c-8e991aace476",
+      "from": [
+        -6,
+        4,
+        -6
+      ],
+      "to": [
+        6,
+        14,
+        6
+      ],
+      "origin": [
+        0,
+        9,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12,
+            28,
+            24,
+            40
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        },
+        "down": {
+          "uv": [
+            24,
+            28,
+            36,
+            40
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        },
+        "east": {
+          "uv": [
+            0,
+            40,
+            12,
+            50
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        },
+        "north": {
+          "uv": [
+            12,
+            40,
+            24,
+            50
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        },
+        "west": {
+          "uv": [
+            24,
+            40,
+            36,
+            50
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        },
+        "south": {
+          "uv": [
+            36,
+            40,
+            48,
+            50
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        }
+      },
+      "box_uv": false
+    },
+    {
+      "name": "ritual_basin",
+      "type": "cube",
+      "uuid": "828a359c-c03f-46c2-88a5-6f3db4181170",
+      "from": [
+        -8,
+        14,
+        -8
+      ],
+      "to": [
+        8,
+        17,
+        8
+      ],
+      "origin": [
+        0,
+        15.5,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            40,
+            28,
+            56,
+            44
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        },
+        "down": {
+          "uv": [
+            56,
+            28,
+            72,
+            44
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        },
+        "east": {
+          "uv": [
+            24,
+            44,
+            40,
+            47
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        },
+        "north": {
+          "uv": [
+            40,
+            44,
+            56,
+            47
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        },
+        "west": {
+          "uv": [
+            56,
+            44,
+            72,
+            47
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        },
+        "south": {
+          "uv": [
+            72,
+            44,
+            88,
+            47
+          ],
+          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+        }
+      },
+      "box_uv": false
+    }
+  ],
+  "outliner": [
+    {
+      "name": "root",
+      "uuid": "e583c46d-ec14-44ac-b5ee-a160a44bdc5b",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "mirror_uv": false,
+      "isOpen": true,
+      "children": [
+        "0842c0fd-697f-4ac2-921d-2f212c238a2d",
+        "daa08f39-1b0e-451e-959c-8e991aace476",
+        "828a359c-c03f-46c2-88a5-6f3db4181170"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "blood_altar.png",
+      "folder": "entity",
+      "id": "0",
+      "uuid": "23be2f42-6851-4505-b2df-7805f228f8a1",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAPoAAAD6AG1e1JrAAACA0lEQVR4nO2Z7Y6CMBBF75OgoqIiouzX+7/Z3UyiG2JEizLQW/cHCZHm5DQt0+GKLFtyt6s5n6+535+Y5xseDh9crXY8Hr9YFHs2zQ+32wNnsxXL8sjFomBVNVwut6zrT67XJU+nb242FdV4UJD05EFB0pMHBUlPHhQkPXlQkPTkQUHSkwcFSU8eFCQ9eVCQ9ORBQdKTBwVJTx4UJD15UJD05EFB0pMHBUlPHhQkPXlQkPTkQUHSkwcFSU8ehoYS6MWz8X0mbeOjzwTZQ9LGhq60jZXJBAkE8WzckLyoMkEGbG8b84hnY2QzQQIvvS59a0SUmSDvFEZ71sWzZ8lkguxY6a7t/WjnSGaCvFHI7LdnC6NkJsird/p6pfv2EZKZIFuTtvsLz+7fJhPkeaUvkx66w5PIBAn8XclkgmxNyutKJhNka1JvlwnyPOlLszPWuR9FJshWh2f3Ux2BxRSZ4KNzf+zTAGMegbc6PPttrE/fSTNBdmzvriNwrMKIMQrPvQ7Pnj37KR1lJpgN/L3vXRjhWW1DOryQTNCzMOI/E2x8OrxQXkgm6FkYMUUQ+sr2HrowQvUfHblMMI+UBwXJpDLBMjIeFCSTzASzSHhQkJTKBGsxHhQkk8wEy0h4UJBMKhOsI+NBQTKJTDCLlAcFSelMMI+cBwVJTx4UJD15UJD05P0Cp9Lbwtbj3fkAAAAASUVORK5CYII=",
+      "width": 64,
+      "height": 64,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default"
+    }
+  ],
+  "animations": []
+}

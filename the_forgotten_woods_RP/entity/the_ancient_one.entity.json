@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "forgotten_woods:the_ancient_one",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/the_ancient_one"
+      },
+      "geometry": {
+        "default": "geometry.the_ancient_one"
+      },
+      "animations": {
+        "idle": "animation.the_ancient_one.idle",
+        "walk": "animation.the_ancient_one.walk",
+        "slam": "animation.the_ancient_one.ground_slam"
+      },
+      "scripts": {
+        "animate": [
+          "idle",
+          "walk",
+          "slam"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#1a1a1a",
+        "overlay_color": "#cc0000"
+      }
+    }
+  }
+}

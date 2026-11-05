@@ -1,0 +1,10 @@
+# OS & Editor
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Keep all models, packs, and documentation
+!*.bbmodel
+!*.mcaddon
+!PROJECT_STATE.md

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "forgotten_woods:the_woods_stalker",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/the_woods_stalker"
+      },
+      "geometry": {
+        "default": "geometry.the_woods_stalker"
+      },
+      "animations": {
+        "idle": "animation.the_woods_stalker.idle",
+        "walk": "animation.the_woods_stalker.walk",
+        "attack": "animation.the_woods_stalker.attack"
+      },
+      "scripts": {
+        "animate": [
+          "idle",
+          "walk",
+          "attack"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#1a1a1a",
+        "overlay_color": "#cc0000"
+      }
+    }
+  }
+}

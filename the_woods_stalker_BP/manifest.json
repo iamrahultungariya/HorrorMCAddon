@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "the_woods_stalker Behavior Pack",
+    "description": "Custom Bedrock Add-on for the_woods_stalker",
+    "uuid": "a9b79e5c-45b4-4152-b993-f32bdfb7a18e",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "5db22f51-b5d3-42a8-8e3e-86444719e440",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "8ba3a43a-5c3c-421e-a48f-2a4708e355db",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
