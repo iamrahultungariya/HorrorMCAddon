@@ -1,7 +1,7 @@
 {
   "meta": {
     "format_version": "4.10",
-    "creation_time": 1793864276,
+    "creation_time": 1793870046,
     "model_format": "bedrock",
     "box_uv": false
   },
@@ -14,7 +14,7 @@
     {
       "name": "base_plate",
       "type": "cube",
-      "uuid": "f7896d89-c5b2-4fb7-b231-6c4ab08d3f0f",
+      "uuid": "cd41de34-66fd-4d8e-b3df-6651ce6b5742",
       "from": [
         -6,
         0,
@@ -38,7 +38,7 @@
             24,
             12
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         },
         "down": {
           "uv": [
@@ -47,7 +47,7 @@
             36,
             12
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         },
         "east": {
           "uv": [
@@ -56,7 +56,7 @@
             12,
             13
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         },
         "north": {
           "uv": [
@@ -65,7 +65,7 @@
             24,
             13
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         },
         "west": {
           "uv": [
@@ -74,7 +74,7 @@
             36,
             13
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         },
         "south": {
           "uv": [
@@ -83,7 +83,7 @@
             48,
             13
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         }
       },
       "box_uv": false
@@ -91,7 +91,7 @@
     {
       "name": "jaw_left",
       "type": "cube",
-      "uuid": "d0c266e3-00ef-4a26-97de-76f1fb770c62",
+      "uuid": "03b10acd-3f88-46c0-954e-0c6003748667",
       "from": [
         -6,
         1,
@@ -115,7 +115,7 @@
             11,
             24
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         },
         "down": {
           "uv": [
@@ -124,7 +124,7 @@
             12,
             24
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         },
         "east": {
           "uv": [
@@ -133,7 +133,7 @@
             10,
             27
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         },
         "north": {
           "uv": [
@@ -142,7 +142,7 @@
             11,
             27
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         },
         "west": {
           "uv": [
@@ -151,7 +151,7 @@
             21,
             27
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         },
         "south": {
           "uv": [
@@ -160,7 +160,7 @@
             22,
             27
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         }
       },
       "box_uv": false
@@ -168,7 +168,7 @@
     {
       "name": "jaw_right",
       "type": "cube",
-      "uuid": "935886e8-8ee7-4c92-a892-d88baa944649",
+      "uuid": "d5ebd497-981a-443c-86f3-f57bc8b36bb7",
       "from": [
         5,
         1,
@@ -192,7 +192,7 @@
             11,
             24
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         },
         "down": {
           "uv": [
@@ -201,7 +201,7 @@
             12,
             24
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         },
         "east": {
           "uv": [
@@ -210,7 +210,7 @@
             10,
             27
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         },
         "north": {
           "uv": [
@@ -219,7 +219,7 @@
             11,
             27
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         },
         "west": {
           "uv": [
@@ -228,7 +228,7 @@
             21,
             27
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         },
         "south": {
           "uv": [
@@ -237,7 +237,7 @@
             22,
             27
           ],
-          "texture": "5928155f-9ce7-4576-bfb2-e10aca2e9a46"
+          "texture": "1c1ec902-a4aa-40af-9671-046fa565cde2"
         }
       },
       "box_uv": false
@@ -246,7 +246,7 @@
   "outliner": [
     {
       "name": "root",
-      "uuid": "f678f382-2aca-4cb9-87d0-21031bf0eb94",
+      "uuid": "01400b0f-9b08-4000-a079-5c4ea3931c96",
       "origin": [
         0,
         0,
@@ -255,9 +255,9 @@
       "mirror_uv": false,
       "isOpen": true,
       "children": [
-        "f7896d89-c5b2-4fb7-b231-6c4ab08d3f0f",
-        "d0c266e3-00ef-4a26-97de-76f1fb770c62",
-        "935886e8-8ee7-4c92-a892-d88baa944649"
+        "cd41de34-66fd-4d8e-b3df-6651ce6b5742",
+        "03b10acd-3f88-46c0-954e-0c6003748667",
+        "d5ebd497-981a-443c-86f3-f57bc8b36bb7"
       ]
     }
   ],
@@ -266,7 +266,7 @@
       "name": "rusty_bear_trap.png",
       "folder": "entity",
       "id": "0",
-      "uuid": "5928155f-9ce7-4576-bfb2-e10aca2e9a46",
+      "uuid": "1c1ec902-a4aa-40af-9671-046fa565cde2",
       "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA6ElEQVRYhe2XSQ6CQBBF/3H+IRQERD2N8zwP6LW/qZ0LY5CpNuxJ3kvTXS+FcYdahdQxoR4DatalthF16VOvEbUMqUNM3QfUtEttetS5Tz2H1CKg9jF1S6lJh1r3qFNCZUNqHlC7iLqm1C8G8nxUpwj+sa1DBEWOrUoRlPl/VYigiotURgRV3ugiIqjjaf0jgjrfeB4RNDFsfjHQ5NT7xoDH+P1kwLMDxoBnB4wBzw4YA54dMAY8O2AMeHbAGPDsgDHg2QFjwLMDxoBnB4wBzw4YA54dMAY8O2AMtItJ1i4mabuY0HUxeQM1iYs19U98oAAAAABJRU5ErkJggg==",
       "width": 32,
       "height": 32,

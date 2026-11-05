@@ -106,22 +106,24 @@ flowchart TD
 - [x] Created procedural animations (idle, walk, crawl, attack, ground slam).
 - [x] Bundled initial `.mcaddon` packages.
 
-### Phase 2: Weapons, Items & Script Engine (🔄 NEXT UP)
-- [ ] 3D Model: Break-Action Double-Barrel Shotgun + 12-Gauge Shells.
-- [ ] 3D Model: Throwable Glass Bottle & Stone Pebble.
-- [ ] Bedrock Script API (`@minecraft/server`):
-  - [ ] Sound detection on un-sneaked door/chest opening (`door_creak`).
-  - [ ] Throwable projectile vibration trigger (diverting monster path).
-  - [ ] Shotgun raycast damage, knockback & deafening 60-block sound broadcast.
-  - [ ] Wardrobe hide/unhide camera controller.
-  - [ ] Door plank barricade interaction.
+### Phase 2: Weapons, Items & Script Engine (✅ COMPLETED)
+- [x] 3D Model: Break-Action Double-Barrel Shotgun + 12-Gauge Shells.
+- [x] 3D Model: Throwable Glass Bottle & Stone Pebble.
+- [x] Bedrock Script API (`@minecraft/server`):
+  - [x] Sound detection on un-sneaked door/chest opening (`door_creak`).
+  - [x] Throwable projectile vibration trigger (diverting monster path).
+  - [x] Shotgun raycast damage, knockback & deafening 60-block sound broadcast.
+  - [x] Bear Trap snare & immobilization system.
+  - [x] Survival item definitions & sound registry (`sound_definitions.json`).
 
-### Phase 3: Location Horrors & Jumpscare State Machines
+### Phase 3: Location Horrors & Jumpscare State Machines (🔄 NEXT UP)
 - [ ] Weeping Wraith Sight-Angle checking AI (freezes on FOV, stalks when back is turned).
 - [ ] Mansion Mannequin relocation script.
 - [ ] Graveyard collapsing grave trigger block.
 - [ ] Window peeker lightning event.
 - [ ] Flooded basement fusebox sequence.
+- [ ] Wardrobe hide/unhide camera controller.
+- [ ] Door plank barricade interaction.
 
 ### Phase 4: World Construction (1,000 x 1,000 Island)
 - [ ] WorldPainter heightmap generation from minimap illustration.

@@ -3,7 +3,7 @@
   "header": {
     "name": "The Forgotten Woods [RP]",
     "description": "Official Resource Pack for The Forgotten Woods Minecraft Horror Addon",
-    "uuid": "e9f037be-7575-447e-bd52-8e0acaaff233",
+    "uuid": "49cd2558-4fe4-4627-9b66-6109c065caa2",
     "version": [
       1,
       0,
@@ -18,7 +18,7 @@
   "modules": [
     {
       "type": "resources",
-      "uuid": "6fdd693a-d07d-448b-903e-062647b33cfd",
+      "uuid": "6767ec6f-1e10-4f72-8910-1f6dcdd28302",
       "version": [
         1,
         0,

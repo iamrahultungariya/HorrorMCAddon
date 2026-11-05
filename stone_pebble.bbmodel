@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "creation_time": 1793870401,
+    "model_format": "bedrock",
+    "box_uv": false
+  },
+  "name": "stone_pebble",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "rock_core",
+      "type": "cube",
+      "uuid": "449180fe-7fa7-4750-a6b1-5ead1044e975",
+      "from": [
+        -1,
+        0,
+        -1
+      ],
+      "to": [
+        1,
+        2,
+        1
+      ],
+      "origin": [
+        0,
+        1,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        },
+        "down": {
+          "uv": [
+            4,
+            0,
+            6,
+            2
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            2,
+            4
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        },
+        "north": {
+          "uv": [
+            2,
+            2,
+            4,
+            4
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        },
+        "west": {
+          "uv": [
+            4,
+            2,
+            6,
+            4
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        },
+        "south": {
+          "uv": [
+            6,
+            2,
+            8,
+            4
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        }
+      },
+      "box_uv": false
+    },
+    {
+      "name": "rock_facet1",
+      "type": "cube",
+      "uuid": "d3dfbe3a-99ab-4a20-858b-d12ba959323e",
+      "from": [
+        -1,
+        2,
+        -1
+      ],
+      "to": [
+        1,
+        2.5,
+        0.5
+      ],
+      "origin": [
+        0,
+        2,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            6,
+            4,
+            8
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        },
+        "down": {
+          "uv": [
+            4,
+            6,
+            6,
+            8
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            2,
+            8
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        },
+        "north": {
+          "uv": [
+            2,
+            8,
+            4,
+            8
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        },
+        "west": {
+          "uv": [
+            4,
+            8,
+            5,
+            8
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        },
+        "south": {
+          "uv": [
+            5,
+            8,
+            7,
+            8
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        }
+      },
+      "box_uv": false
+    },
+    {
+      "name": "rock_facet2",
+      "type": "cube",
+      "uuid": "1ddae218-4038-4fe3-b4eb-59a8d95ad037",
+      "from": [
+        -1,
+        0.5,
+        -1
+      ],
+      "to": [
+        0.5,
+        1.5,
+        1
+      ],
+      "origin": [
+        0,
+        1,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8,
+            0,
+            10,
+            2
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        },
+        "down": {
+          "uv": [
+            10,
+            0,
+            11,
+            2
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        },
+        "east": {
+          "uv": [
+            6,
+            2,
+            8,
+            3
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        },
+        "north": {
+          "uv": [
+            8,
+            2,
+            10,
+            3
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        },
+        "west": {
+          "uv": [
+            10,
+            2,
+            12,
+            3
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        },
+        "south": {
+          "uv": [
+            12,
+            2,
+            13,
+            3
+          ],
+          "texture": "3788e931-b100-4d2e-8905-bbb246e087a3"
+        }
+      },
+      "box_uv": false
+    }
+  ],
+  "outliner": [
+    {
+      "name": "pebble",
+      "uuid": "07835219-0419-4eb7-8bdf-1a8c4c6a91d1",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "mirror_uv": false,
+      "isOpen": true,
+      "children": [
+        "449180fe-7fa7-4750-a6b1-5ead1044e975",
+        "d3dfbe3a-99ab-4a20-858b-d12ba959323e",
+        "1ddae218-4038-4fe3-b4eb-59a8d95ad037"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "stone_pebble.png",
+      "folder": "item",
+      "id": "0",
+      "uuid": "3788e931-b100-4d2e-8905-bbb246e087a3",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAAzUlEQVQ4jZ3RWXKCUBRF0TvJJArSo/R9L6jJyHd+3wdFUW8E69TZYly+iO4+fVvx99l4hB5dU/L7XrkHLm1d8Hk9CX2Hpsp5bwuBZ1OXGa91RrLkwTx2WOaFNL4zDS0344ckChn7BvP6TfwIGLqaPUy254Tn3CjzhHUZcW2TIot5zgOOZZCnEcvUY9+u7GFyZqbvWlRFyh4mZ2YefSJnZh59ImdmHn0iOulUTHTSqZjopFMx0UmnYqKTTsVEJ52KiU46FROddComOulU7B8N9UEvZrb4CwAAAABJRU5ErkJggg==",
+      "width": 16,
+      "height": 16,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default"
+    }
+  ],
+  "animations": []
+}

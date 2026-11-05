@@ -6,3 +6,10 @@ entity.forgotten_woods:the_ancient_one.name=The Ancient One (Elder Boss)
 item.spawn_egg.entity.forgotten_woods:the_ancient_one.name=Awaken The Ancient One
 item.forgotten_woods:forgotten_lantern.name=Survivor's Soul Lantern
 item.forgotten_woods:sacrificial_dagger.name=Cursed Sacrificial Dagger
+
+## Phase 2 Survival Equipment
+item.forgotten_woods:double_barrel_shotgun.name=Break-Action Double-Barrel Shotgun
+item.forgotten_woods:shotgun_shell.name=12-Gauge Shotgun Shell
+item.forgotten_woods:glass_bottle.name=Throwable Glass Bottle (Distraction)
+item.forgotten_woods:stone_pebble.name=Throwable Stone Pebble (Distraction)
+item.forgotten_woods:rusty_bear_trap.name=Rusty Snapping Bear Trap

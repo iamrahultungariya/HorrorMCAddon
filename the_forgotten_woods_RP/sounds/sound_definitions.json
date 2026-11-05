@@ -1,0 +1,75 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "forgotten_woods.door_creak": {
+      "category": "ambient",
+      "sounds": [
+        {
+          "name": "sounds/horror/door_creak",
+          "volume": 1,
+          "pitch": 0.85
+        }
+      ]
+    },
+    "forgotten_woods.chest_creak": {
+      "category": "ambient",
+      "sounds": [
+        {
+          "name": "sounds/horror/chest_creak",
+          "volume": 0.9,
+          "pitch": 0.9
+        }
+      ]
+    },
+    "forgotten_woods.shotgun_blast": {
+      "category": "player",
+      "sounds": [
+        {
+          "name": "sounds/weapons/shotgun_blast",
+          "volume": 1.8,
+          "pitch": 0.95
+        }
+      ]
+    },
+    "forgotten_woods.glass_break": {
+      "category": "ambient",
+      "sounds": [
+        {
+          "name": "sounds/horror/glass_break",
+          "volume": 1.2,
+          "pitch": 1
+        }
+      ]
+    },
+    "forgotten_woods.pebble_clatter": {
+      "category": "ambient",
+      "sounds": [
+        {
+          "name": "sounds/horror/pebble_clatter",
+          "volume": 0.8,
+          "pitch": 1.1
+        }
+      ]
+    },
+    "forgotten_woods.bear_trap_snap": {
+      "category": "ambient",
+      "sounds": [
+        {
+          "name": "sounds/horror/bear_trap_snap",
+          "volume": 1.5,
+          "pitch": 0.8
+        }
+      ]
+    },
+    "forgotten_woods.monster_alert": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "sounds/horror/monster_snarl",
+          "volume": 1.3,
+          "pitch": 0.7
+        }
+      ]
+    }
+  }
+}

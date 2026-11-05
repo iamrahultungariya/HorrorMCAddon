@@ -1,0 +1,21 @@
+{
+  "resource_pack_name": "the_forgotten_woods",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "forgotten_woods:double_barrel_shotgun": {
+      "textures": "textures/items/double_barrel_shotgun"
+    },
+    "forgotten_woods:shotgun_shell": {
+      "textures": "textures/items/shotgun_shell"
+    },
+    "forgotten_woods:glass_bottle": {
+      "textures": "textures/items/glass_bottle"
+    },
+    "forgotten_woods:stone_pebble": {
+      "textures": "textures/items/stone_pebble"
+    },
+    "forgotten_woods:rusty_bear_trap": {
+      "textures": "textures/entity/rusty_bear_trap"
+    }
+  }
+}

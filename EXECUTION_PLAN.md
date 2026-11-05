@@ -63,35 +63,32 @@
 
 ---
 
-### 🟡 PHASE 2: Weapons, Items & Script Engine (🔄 CURRENT ACTIVE PHASE)
+### 🟢 PHASE 2: Weapons, Items & Script Engine (✅ COMPLETED)
 *Goal: Create physical, deterministic action triggers and high-risk survival tools.*
 
-#### Tasks & Files to Create:
+#### Tasks Completed:
 1. **3D Weapons & Ammo Models:**
    * Model: `double_barrel_shotgun.bbmodel` (Break-action hinge, wood grain stock, double steel barrels, iron sights).
    * Model: `shotgun_shell.bbmodel` (Red plastic shell with brass rim).
    * Model: `glass_bottle.bbmodel` & `stone_pebble.bbmodel` (Throwable distraction items).
-2. **Bedrock Script Engine (`mcp-server/` or BP `scripts/`):**
-   * **Door & Chest Creak Listener:**
-     * File: `the_forgotten_woods_BP/scripts/noise_engine.ts`
+2. **Bedrock Script Engine (`the_forgotten_woods_BP/scripts/`):**
+   * **Door & Chest Creak Listener (`noise_engine.js`):**
      * Listens to `world.afterEvents.playerInteractWithBlock`.
-     * If player interacts with doors, trapdoors, or chests while `player.isSneaking === false`, emit noise event (`door_creak.ogg`) and spawn invisible vibration entity within 25 blocks that lures nearby monsters!
-   * **Throwable Distraction System:**
-     * Listens to `world.afterEvents.projectileHitBlock`.
-     * When Glass Bottle or Pebble lands, play shatter sound (`glass_break.ogg`) and force nearby monsters to set target pathfinding to impact point.
-   * **Shotgun Mechanics:**
-     * 2-Shot capacity with break-action reload animation.
-     * Raycast ray for 25 damage + heavy knockback.
-     * Fires `shotgun_blast.ogg` broadcast to 60 blocks, triggering all forest stalkers to investigate.
-   * **Survival Bear Trap Block/Entity:**
-     * Triggers when monster steps on it: deals 10 damage, applies `slowness: 255` for 5 seconds, plays `bear_trap_snap.ogg`.
-
-#### Verification Step for Phase 2:
-Run `npx tsx scripts/generate-full-horror-suite.ts` to verify shotgun and throwable assets export cleanly into RP and BP, then test in Minecraft creative inventory.
+     * Silent when sneaking; loud creak alerts predators within 25 blocks when walking/running!
+   * **Throwable Distraction System (`throwable_engine.js`):**
+     * Listens to `projectileHitBlock`.
+     * Shatter/clatter lures nearby Wendigo and Crypt Crawlers away from player.
+   * **Shotgun Mechanics (`shotgun_engine.js`):**
+     * 2-Shot break-action capacity with inventory shell reloading.
+     * Raycast 25 damage + heavy knockback.
+     * Deafening 60-block muzzle blast sonic alert!
+   * **Survival Bear Trap (`bear_trap_engine.js`):**
+     * 12 damage + Slowness 255 snare immobilization for 5 seconds.
+   * **Main Entry Point (`main.js`):** Orchestrates all systems under `@minecraft/server`.
 
 ---
 
-### 🟠 PHASE 3: Location Horrors, Traps & Jumpscares (PLANNED)
+### 🟡 PHASE 3: Location Horrors, Traps & Jumpscares (🔄 CURRENT ACTIVE PHASE)
 *Goal: Build intense psychological fear and signature mechanics for each of the 7 POIs.*
 
 #### Tasks & Mechanics:

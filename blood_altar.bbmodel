@@ -1,7 +1,7 @@
 {
   "meta": {
     "format_version": "4.10",
-    "creation_time": 1793864276,
+    "creation_time": 1793870046,
     "model_format": "bedrock",
     "box_uv": false
   },
@@ -14,7 +14,7 @@
     {
       "name": "altar_slab",
       "type": "cube",
-      "uuid": "0842c0fd-697f-4ac2-921d-2f212c238a2d",
+      "uuid": "374acb4b-8da5-44b2-8a01-85f4d0994a58",
       "from": [
         -12,
         0,
@@ -38,7 +38,7 @@
             48,
             24
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         },
         "down": {
           "uv": [
@@ -47,7 +47,7 @@
             72,
             24
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         },
         "east": {
           "uv": [
@@ -56,7 +56,7 @@
             24,
             28
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         },
         "north": {
           "uv": [
@@ -65,7 +65,7 @@
             48,
             28
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         },
         "west": {
           "uv": [
@@ -74,7 +74,7 @@
             72,
             28
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         },
         "south": {
           "uv": [
@@ -83,7 +83,7 @@
             96,
             28
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         }
       },
       "box_uv": false
@@ -91,7 +91,7 @@
     {
       "name": "altar_pillar",
       "type": "cube",
-      "uuid": "daa08f39-1b0e-451e-959c-8e991aace476",
+      "uuid": "50f24713-97d6-40e1-a93f-d9589c730eb6",
       "from": [
         -6,
         4,
@@ -115,7 +115,7 @@
             24,
             40
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         },
         "down": {
           "uv": [
@@ -124,7 +124,7 @@
             36,
             40
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         },
         "east": {
           "uv": [
@@ -133,7 +133,7 @@
             12,
             50
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         },
         "north": {
           "uv": [
@@ -142,7 +142,7 @@
             24,
             50
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         },
         "west": {
           "uv": [
@@ -151,7 +151,7 @@
             36,
             50
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         },
         "south": {
           "uv": [
@@ -160,7 +160,7 @@
             48,
             50
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         }
       },
       "box_uv": false
@@ -168,7 +168,7 @@
     {
       "name": "ritual_basin",
       "type": "cube",
-      "uuid": "828a359c-c03f-46c2-88a5-6f3db4181170",
+      "uuid": "5f22b022-956b-466f-adae-fd1e1f1cdbec",
       "from": [
         -8,
         14,
@@ -192,7 +192,7 @@
             56,
             44
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         },
         "down": {
           "uv": [
@@ -201,7 +201,7 @@
             72,
             44
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         },
         "east": {
           "uv": [
@@ -210,7 +210,7 @@
             40,
             47
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         },
         "north": {
           "uv": [
@@ -219,7 +219,7 @@
             56,
             47
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         },
         "west": {
           "uv": [
@@ -228,7 +228,7 @@
             72,
             47
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         },
         "south": {
           "uv": [
@@ -237,7 +237,7 @@
             88,
             47
           ],
-          "texture": "23be2f42-6851-4505-b2df-7805f228f8a1"
+          "texture": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0"
         }
       },
       "box_uv": false
@@ -246,7 +246,7 @@
   "outliner": [
     {
       "name": "root",
-      "uuid": "e583c46d-ec14-44ac-b5ee-a160a44bdc5b",
+      "uuid": "7838fa10-c944-4d16-aac9-85c819ea7049",
       "origin": [
         0,
         0,
@@ -255,9 +255,9 @@
       "mirror_uv": false,
       "isOpen": true,
       "children": [
-        "0842c0fd-697f-4ac2-921d-2f212c238a2d",
-        "daa08f39-1b0e-451e-959c-8e991aace476",
-        "828a359c-c03f-46c2-88a5-6f3db4181170"
+        "374acb4b-8da5-44b2-8a01-85f4d0994a58",
+        "50f24713-97d6-40e1-a93f-d9589c730eb6",
+        "5f22b022-956b-466f-adae-fd1e1f1cdbec"
       ]
     }
   ],
@@ -266,7 +266,7 @@
       "name": "blood_altar.png",
       "folder": "entity",
       "id": "0",
-      "uuid": "23be2f42-6851-4505-b2df-7805f228f8a1",
+      "uuid": "6aa12702-e215-4211-90f1-6ff1ce4ae7e0",
       "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAPoAAAD6AG1e1JrAAACA0lEQVR4nO2Z7Y6CMBBF75OgoqIiouzX+7/Z3UyiG2JEizLQW/cHCZHm5DQt0+GKLFtyt6s5n6+535+Y5xseDh9crXY8Hr9YFHs2zQ+32wNnsxXL8sjFomBVNVwut6zrT67XJU+nb242FdV4UJD05EFB0pMHBUlPHhQkPXlQkPTkQUHSkwcFSU8eFCQ9eVCQ9ORBQdKTBwVJTx4UJD15UJD05EFB0pMHBUlPHhQkPXlQkPTkQUHSkwcFSU8ehoYS6MWz8X0mbeOjzwTZQ9LGhq60jZXJBAkE8WzckLyoMkEGbG8b84hnY2QzQQIvvS59a0SUmSDvFEZ71sWzZ8lkguxY6a7t/WjnSGaCvFHI7LdnC6NkJsird/p6pfv2EZKZIFuTtvsLz+7fJhPkeaUvkx66w5PIBAn8XclkgmxNyutKJhNka1JvlwnyPOlLszPWuR9FJshWh2f3Ux2BxRSZ4KNzf+zTAGMegbc6PPttrE/fSTNBdmzvriNwrMKIMQrPvQ7Pnj37KR1lJpgN/L3vXRjhWW1DOryQTNCzMOI/E2x8OrxQXkgm6FkYMUUQ+sr2HrowQvUfHblMMI+UBwXJpDLBMjIeFCSTzASzSHhQkJTKBGsxHhQkk8wEy0h4UJBMKhOsI+NBQTKJTDCLlAcFSelMMI+cBwVJTx4UJD15UJD05P0Cp9Lbwtbj3fkAAAAASUVORK5CYII=",
       "width": 64,
       "height": 64,

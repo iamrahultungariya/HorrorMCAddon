@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "forgotten_woods:rusty_bear_trap",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "forgotten_woods:rusty_bear_trap"
+      },
+      "minecraft:max_stack_size": 4,
+      "minecraft:hand_equipped": false,
+      "minecraft:can_destroy_in_creative": false
+    }
+  }
+}

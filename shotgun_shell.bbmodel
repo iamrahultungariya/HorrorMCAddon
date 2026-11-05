@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "creation_time": 1793870401,
+    "model_format": "bedrock",
+    "box_uv": false
+  },
+  "name": "shotgun_shell",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "brass_base",
+      "type": "cube",
+      "uuid": "935287f3-a4e1-42fd-a53f-7bfe24fa5190",
+      "from": [
+        -1,
+        0,
+        -1
+      ],
+      "to": [
+        1,
+        1,
+        1
+      ],
+      "origin": [
+        0,
+        0.5,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            0,
+            4,
+            2
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        },
+        "down": {
+          "uv": [
+            4,
+            0,
+            6,
+            2
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            2,
+            3
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        },
+        "north": {
+          "uv": [
+            2,
+            2,
+            4,
+            3
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        },
+        "west": {
+          "uv": [
+            4,
+            2,
+            6,
+            3
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        },
+        "south": {
+          "uv": [
+            6,
+            2,
+            8,
+            3
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        }
+      },
+      "box_uv": false
+    },
+    {
+      "name": "plastic_casing",
+      "type": "cube",
+      "uuid": "e1159bd6-f907-48c2-b61f-cec40933cc51",
+      "from": [
+        -0.5,
+        1,
+        -0.5
+      ],
+      "to": [
+        1,
+        4,
+        1
+      ],
+      "origin": [
+        0,
+        2.5,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            6,
+            3,
+            8
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        },
+        "down": {
+          "uv": [
+            3,
+            6,
+            5,
+            8
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            2,
+            11
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        },
+        "north": {
+          "uv": [
+            2,
+            8,
+            3,
+            11
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        },
+        "west": {
+          "uv": [
+            3,
+            8,
+            5,
+            11
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        },
+        "south": {
+          "uv": [
+            5,
+            8,
+            6,
+            11
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        }
+      },
+      "box_uv": false
+    },
+    {
+      "name": "crimp_tip",
+      "type": "cube",
+      "uuid": "7a92b04e-e9cc-417f-8f94-79baebf1a559",
+      "from": [
+        -0.5,
+        4,
+        -0.5
+      ],
+      "to": [
+        0.5,
+        4.5,
+        0.5
+      ],
+      "origin": [
+        0,
+        4.5,
+        0
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            9,
+            0,
+            10,
+            1
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        },
+        "down": {
+          "uv": [
+            10,
+            0,
+            11,
+            1
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        },
+        "east": {
+          "uv": [
+            8,
+            1,
+            9,
+            2
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        },
+        "north": {
+          "uv": [
+            9,
+            1,
+            10,
+            2
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        },
+        "west": {
+          "uv": [
+            10,
+            1,
+            11,
+            2
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        },
+        "south": {
+          "uv": [
+            11,
+            1,
+            12,
+            2
+          ],
+          "texture": "572ac3c1-232d-4473-b429-c00e04ac290c"
+        }
+      },
+      "box_uv": false
+    }
+  ],
+  "outliner": [
+    {
+      "name": "shell",
+      "uuid": "998db9fe-3526-4930-908c-e68993882b5c",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "mirror_uv": false,
+      "isOpen": true,
+      "children": [
+        "935287f3-a4e1-42fd-a53f-7bfe24fa5190",
+        "e1159bd6-f907-48c2-b61f-cec40933cc51",
+        "7a92b04e-e9cc-417f-8f94-79baebf1a559"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "shotgun_shell.png",
+      "folder": "item",
+      "id": "0",
+      "uuid": "572ac3c1-232d-4473-b429-c00e04ac290c",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAA3UlEQVQ4jaXSR05DQRCE4b5BbcjZGJvYFwecIzkHG1bkDDf5kXdoZPu9EduWSvVNT9vdpvNacX7azkvZ+W45zyXnq+k8FZ3PhvNYcD7qzsO2815z7rect6rTy1psICyz2EBYZrGBsMz+8/5e1g7nRGdV7E2Ly7xoT4izrGiMiuMFcbMuDmbF9YrYnRIXOdEaF6eLoj4iLBwczYvumtifEVfLYmdSnC+J5pg4yYjbDfG31MJBrML6sWIU1o8Vo7BBy0mrsEHLSauwYV+URmHDviiNwpIOJUlhSYeSpPgFCgcs4WO/MKoAAAAASUVORK5CYII=",
+      "width": 16,
+      "height": 16,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default"
+    }
+  ],
+  "animations": []
+}
