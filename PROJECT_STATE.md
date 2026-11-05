@@ -15,6 +15,7 @@
 * **Map Dimensions:** `1,000 x 1,000` Blocks (High-Density Atmospheric Island)
 * **Core File Path:** `D:\do note delete\Desktop\MC horror mod\`
 * **MCP Server Tooling:** `d:\do note delete\Downloads\BlockBench MCP Server\`
+* **GitHub Repository:** [`git@github.com:iamrahultungariya/HorrorMCAddon.git`](https://github.com/iamrahultungariya/HorrorMCAddon)
 
 ---
 
@@ -140,3 +141,4 @@ flowchart TD
   - Packaged unified `The_Forgotten_Woods_Ultimate.mcaddon`.
   - Shifted horror mechanics from vague concepts to deterministic action triggers (Creaking doors, throwables, shotgun, wardrobe hiding).
   - Created `PROJECT_STATE.md` as permanent master project directive.
+  - Initialized Git repository and pushed live to GitHub: `git@github.com:iamrahultungariya/HorrorMCAddon.git`.
